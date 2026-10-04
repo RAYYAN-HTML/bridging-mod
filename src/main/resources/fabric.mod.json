@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "bridging-mod",
+  "version": "${version}",
+  "name": "Hybrid Bridging",
+  "description": "Client-side Fabric mod that keeps Java placement when it works and adds Bedrock-style fallback placement for smoother bridging.",
+  "authors": [],
+  "contact": {
+    "sources": "https://github.com/YOUR_USERNAME/bridging-mod"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.hybridbridging.HybridBridging"
+    ]
+  },
+  "mixins": [
+    "bridging-mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

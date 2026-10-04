@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+.settings/
+
+# Fabric run directory
+run/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local JARs (use build/libs instead)
+/*.jar
+
+# Java Crash Logs
+hs_err_pid*.log
+replay_pid*.log
