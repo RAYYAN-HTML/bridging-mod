@@ -61,22 +61,4 @@ If you prefer a local Gradle install:
 gradle build
 ```
 
-## GitHub setup
 
-1. Create a new repository (for example `bridging-mod`).
-2. Replace `YOUR_USERNAME` in `src/main/resources/fabric.mod.json` with your GitHub username.
-3. Optionally add your name to the `authors` array in the same file.
-4. Push this project:
-
-```powershell
-git init
-git add .
-git commit -m "Initial release of Hybrid Bridging"
-git branch -M main
-git remote add origin https://github.com/rayyan-html/bridging-mod.git
-git push -u origin main
-```
-
-## License
-
-[MIT](LICENSE)
